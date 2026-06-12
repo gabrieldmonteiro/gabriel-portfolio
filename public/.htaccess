@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Arquivos e pastas reais (logo, projects.json, assets)
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # SPA: React Router (/projects, etc.)
+  RewriteRule ^ index.html [L]
+</IfModule>

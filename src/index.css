@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   Tema global — cores carmesim escuro
+   Altere os tokens abaixo para mudar a identidade visual do site.
+   ========================================================================== */
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-surface: #0a0608;
+  --color-surface-elevated: #120a0e;
+  --color-surface-card: #180f13;
+  --color-border: #3a1f2a;
+  --color-accent: #7f1239;
+  --color-accent-light: #be185d;
+  --color-accent-glow: #7f123940;
+}
+
+/* ==========================================================================
+   Base e animações
+   ========================================================================== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-surface);
+  color: #e4e4e7;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: white;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out forwards;
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 4s ease-in-out infinite;
+}

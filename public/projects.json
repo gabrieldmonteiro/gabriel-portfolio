@@ -1,0 +1,98 @@
+[
+  {
+    "id": 0,
+    "name": "Em caso de Emergencia - Front-End (Responsive)",
+    "description": "Front-End project using only HTML5 and CSS3",
+    "url": "https://gabrieldmonteiro.github.io/WebDev-Emergencia/",
+    "url_gh": "https://github.com/gabrieldmonteiro/WebDev-Emergencia",
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/WebDev-Emergencia/master/em-caso-de-emergencia.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Spotify Clone - Front-End",
+    "description": "Front-End project using only HTML5 and CSS3 (Responsive)",
+    "url": "https://gabrieldmonteiro.github.io/SpotifyClone/",
+    "url_gh": "https://github.com/gabrieldmonteiro/SpotifyClone",
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/SpotifyClone/master/spotify-clone.png"
+  },
+  {
+    "id": 2,
+    "name": "Currency Converter",
+    "description": "Currency Converter made with VueJs",
+    "url_gh": "https://github.com/gabrieldmonteiro/CurrencyConverter_VueJs",
+    "image": "https://camo.githubusercontent.com/74e4946cf3ece5299761e583c51e09e93856606c76a203a8009184b3f4e64d1d/68747470733a2f2f692e696d6775722e636f6d2f334b51764c7a412e6a7067"
+  },
+  {
+    "id": 3,
+    "name": "Pomodoro Timer",
+    "description": "Pomodoro Timer using HTML5, CSS3 and JavaScript Vanilla",
+    "url": "https://gabrieldmonteiro.github.io/PomodoroTimer/",
+    "url_gh": "https://github.com/gabrieldmonteiro/PomodoroTimer",
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/PomodoroTimer/master/pomodoro-timer-image.png"
+  },
+  {
+    "id": 4,
+    "name": "jsClock",
+    "description": "Clock made with JavaScript that changes the background dynamically",
+    "url": "https://gabrieldmonteiro.github.io/jsClock/",
+    "url_gh": "https://github.com/gabrieldmonteiro/jsClock",
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/jsClock/master/screenshots/01.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Youtube API - Test",
+    "description": "Test project using Youtube API v3",
+    "url_gh": "https://github.com/gabrieldmonteiro/youtubeAPI-Test",
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/youtubeAPI-Test/master/youtube-api-project.png"
+  },
+  {
+    "id": 6,
+    "name": "COVID-19 Tracker",
+    "description": "Application to monitor the cases of COVID-19 around the world",
+    "url_gh": "https://github.com/gabrieldmonteiro/covid-19",
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/covid-19/master/covid-19-tracker-image.jpg"
+  },
+  {
+    "id": 7,
+    "name": "NFT ART",
+    "description": "Project using PIL library (Python Image Library), a package that has many functions to manipulate images from a Python script, to create generative arts, those that are generated from an autonomous system and that nowadays do a lot success in some NFT marketplaces like OpenSea",
+    "url_gh": "https://github.com/gabrieldmonteiro/nft_art",
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/nft_art/main/images/nft_art_project.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Dev Radar",
+    "description": "Application that shows the location of developers who share the same interests, knowledge and programming languages! [Techs used: NodeJS, React, React-Native]",
+    "url_gh": "https://github.com/gabrieldmonteiro/DevRadar/",
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/DevRadar/master/screenshots/dev-radar-image.png"
+  },
+  {
+    "id": 9,
+    "name": "CRUD - Java + Spring + MongoDB",
+    "description": "CRUD project using Java + Spring and MongoDB",
+    "url_gh": "https://github.com/gabrieldmonteiro/CRUD_Java_Spring_Mongo",
+    "image": "https://github.com/gabrieldmonteiro/CRUD_Java_Spring_Mongo/blob/main/screenshots/post.jpg?raw=true"
+  },
+  {
+    "id": 10,
+    "name": "S21",
+    "description": "Personal project using Python Tkinter, Pandas and OpenPyXL",
+    "url_gh": "https://github.com/gabrieldmonteiro/S21_script/",
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/S21_script/main/screenshot.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Websites - Monitor",
+    "description": "GoLang Project to monitore the status of a list of websites",
+    "url_gh": "https://github.com/gabrieldmonteiro/website-monitor",
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/website-monitor/main/screenshots/website-monitor_monitoring.png"
+  },
+  {
+    "id": 12,
+    "name": "Audio-Test",
+    "description": "Project to test audio - Alpine.js",
+    "url": "https://gabrieldmonteiro.github.io/audio-test/",
+    "url_gh": "https://github.com/gabrieldmonteiro/audio-test",
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/audio-test/main/assets/screenshot.png"
+  }
+]
