@@ -94,4 +94,10 @@ export interface Translations {
     switchToEn: string;
     switchToPt: string;
   };
+  notFound: {
+    code: string;
+    title: string;
+    description: string;
+    backHome: string;
+  };
 }

@@ -11,6 +11,11 @@ interface LanguageContextValue {
 
 const LanguageContext = createContext<LanguageContextValue | null>(null);
 
+function setMetaContent(attr: "name" | "property", key: string, content: string) {
+  const meta = document.querySelector(`meta[${attr}="${key}"]`);
+  if (meta) meta.setAttribute("content", content);
+}
+
 /** Lê preferência salva ou usa o idioma padrão (PT). */
 function getInitialLocale(): Locale {
   const stored = localStorage.getItem(STORAGE_KEY);
@@ -31,8 +36,11 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     document.documentElement.lang = locale === "pt" ? "pt-BR" : "en-US";
     document.title = t.meta.title;
 
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute("content", t.meta.description);
+    setMetaContent("name", "description", t.meta.description);
+    setMetaContent("property", "og:title", t.meta.title);
+    setMetaContent("property", "og:description", t.meta.description);
+    setMetaContent("name", "twitter:title", t.meta.title);
+    setMetaContent("name", "twitter:description", t.meta.description);
   }, [locale, t.meta.title, t.meta.description]);
 
   const toggleLocale = () => {

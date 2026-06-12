@@ -232,4 +232,10 @@ export const en: Translations = {
     switchToPt: "Mudar para Português",
     switchToEn: "Switch to English",
   },
+  notFound: {
+    code: "404",
+    title: "Page not found",
+    description: "The address you visited does not exist or has been moved.",
+    backHome: "Back to home",
+  },
 };
