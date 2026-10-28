@@ -100,5 +100,13 @@
     "url": "https://gabrieldmonteiro.github.io/avoid-no/",
     "url_gh": "https://github.com/gabrieldmonteiro/avoid-no",
     "image": "https://raw.githubusercontent.com/gabrieldmonteiro/avoid-no/refs/heads/main/avoid-no.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Stardew Valley Tracker",
+    "description": "Achievements tracker for Stardew Valley",
+    "url": "https://gabrieldmonteiro.github.io/sv-tracker/",
+    "url_gh": "https://github.com/gabrieldmonteiro/sv-tracker",
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/sv-tracker/refs/heads/main/screenshots/user-interface.png"
   }
 ]
