@@ -108,5 +108,13 @@
     "url": "https://gabrieldmonteiro.github.io/sv-tracker/",
     "url_gh": "https://github.com/gabrieldmonteiro/sv-tracker",
     "image": "https://raw.githubusercontent.com/gabrieldmonteiro/sv-tracker/refs/heads/main/screenshots/user-interface.png"
-  }
+  },
+  {
+    "id": 15,
+    "name": "Raio-DesLinkedinzador",
+    "description": "Transforme textoes do LinkedIn em textos que um ser humano realmente leria — WebLLM no browser.",
+    "url": "https://gabrieldmonteiro.github.io/raio-deslinkedinzador/",
+    "url_gh": "https://github.com/gabrieldmonteiro/raio-deslinkedinzador",
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/raio-deslinkedinzador/refs/heads/master/public/screenshot.png"
+  } 
 ]
