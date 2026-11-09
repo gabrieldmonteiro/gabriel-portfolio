@@ -116,5 +116,19 @@
     "url": "https://gabrieldmonteiro.github.io/sv-tracker/",
     "url_gh": "https://github.com/gabrieldmonteiro/sv-tracker",
     "image": "https://raw.githubusercontent.com/gabrieldmonteiro/sv-tracker/refs/heads/main/screenshots/user-interface.png"
+  },
+   {
+    "id": 16,
+    "name": "Sort Them Cats 2D",
+    "description": "Prototype",
+    "url": "https://monsteruxo.itch.io/sort-them-cats",    
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/SortThemCats/refs/heads/main/Cover.jpg?token=GHSAT0AAAAAAEMLQ6BSKB3SHFZZOQVLKNB62XRJLKQ"
+  },
+   {
+    "id": 17,
+    "name": "Sort Them Cats 3D",
+    "description": "Prototype 3D",
+    "url": "https://monsteruxo.itch.io/sort-them-cats-3d",    
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/SortThemCats3D/refs/heads/main/_cover.jpg?token=GHSAT0AAAAAAEMLQ6BS5TRWSRXG76QTAHUI2XRJNIA"
   } 
 ]
