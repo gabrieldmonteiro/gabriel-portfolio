@@ -130,5 +130,12 @@
     "description": "Prototype 3D",
     "url": "https://monsteruxo.itch.io/sort-them-cats-3d",    
     "image": "https://raw.githubusercontent.com/gabrieldmonteiro/SortThemCats3D/refs/heads/main/_cover.jpg?token=GHSAT0AAAAAAEMLQ6BS5TRWSRXG76QTAHUI2XRJNIA"
-  } 
+  }, 
+  {
+    "id": 18,
+    "name": "Coffee Rush",
+    "description": "Prototype",
+    "url": "https://monsteruxo.itch.io/coffee-rush",    
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/CoffeeRush/refs/heads/main/CoffeeRushCover.jpg?token=GHSAT0AAAAAAEMLQ6BTTV7LLQXHDBI3KFAE2XSQQHA"
+  }  
 ]
