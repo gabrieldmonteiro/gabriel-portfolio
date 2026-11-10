@@ -122,20 +122,20 @@
     "name": "Sort Them Cats 2D",
     "description": "Prototype",
     "url": "https://monsteruxo.itch.io/sort-them-cats",    
-    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/SortThemCats/refs/heads/main/Cover.jpg?token=GHSAT0AAAAAAEMLQ6BSKB3SHFZZOQVLKNB62XRJLKQ"
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/projects-thumbnails/refs/heads/main/SortThemCats2DCover.jpg"
   },
    {
     "id": 17,
     "name": "Sort Them Cats 3D",
     "description": "Prototype 3D",
     "url": "https://monsteruxo.itch.io/sort-them-cats-3d",    
-    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/SortThemCats3D/refs/heads/main/_cover.jpg?token=GHSAT0AAAAAAEMLQ6BS5TRWSRXG76QTAHUI2XRJNIA"
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/projects-thumbnails/refs/heads/main/SortThemCats3D.jpg"
   }, 
   {
     "id": 18,
     "name": "Coffee Rush",
     "description": "Prototype",
     "url": "https://monsteruxo.itch.io/coffee-rush",    
-    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/CoffeeRush/refs/heads/main/CoffeeRushCover.jpg?token=GHSAT0AAAAAAEMLQ6BTTV7LLQXHDBI3KFAE2XSQQHA"
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/projects-thumbnails/refs/heads/main/CoffeeRushCover.jpg"
   }  
 ]
