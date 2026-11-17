@@ -15,7 +15,7 @@ export function NavLink({ href, label }: NavLinkProps) {
   const isRoute = href.startsWith("/");
   const resolvedHref = isRoute || isHome ? href : `/${href}`;
   const className =
-    "inline-flex items-center text-sm leading-none text-zinc-400 transition-colors hover:text-white";
+    "inline-flex items-center text-sm leading-none text-zinc-400 transition-colors hover:text-fg";
 
   if (isRoute) {
     return (

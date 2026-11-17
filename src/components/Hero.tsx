@@ -23,7 +23,7 @@ export function Hero() {
         <div>
           <p className="mb-4 font-mono text-sm text-accent-light">{t.hero.greeting}</p>
 
-          <h1 className="mb-4 text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+          <h1 className="mb-4 text-4xl font-bold tracking-tight text-fg sm:text-5xl lg:text-6xl">
             {profile.name}
           </h1>
 
@@ -40,7 +40,7 @@ export function Hero() {
             </a>
             <a
               href="#experiencia"
-              className="rounded-lg border border-border px-6 py-3 text-sm font-medium text-zinc-300 transition-all hover:border-zinc-600 hover:text-white"
+              className="rounded-lg border border-border px-6 py-3 text-sm font-medium text-zinc-300 transition-all hover:border-zinc-600 hover:text-fg"
             >
               {t.hero.ctaExperience}
             </a>

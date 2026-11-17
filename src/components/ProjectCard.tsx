@@ -3,7 +3,7 @@ import { AppStoreIcon, GitHubIcon, GooglePlayIcon, ItchIcon, PlayIcon, SteamIcon
 import { useLanguage } from "../i18n/LanguageContext";
 
 const secondaryBtn =
-  "inline-flex items-center gap-2 rounded-lg border border-border px-3 py-2 text-xs font-medium text-zinc-400 transition-colors hover:border-zinc-600 hover:text-white";
+  "inline-flex items-center gap-2 rounded-lg border border-border px-3 py-2 text-xs font-medium text-zinc-400 transition-colors hover:border-zinc-600 hover:text-fg";
 
 interface ProjectCardProps {
   project: Project;
@@ -36,7 +36,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
       {/* Conteúdo */}
       <div className="flex flex-1 flex-col p-5">
-        <h3 className="mb-2 font-medium text-white">{project.name}</h3>
+        <h3 className="mb-2 font-medium text-fg">{project.name}</h3>
         <p className="mb-4 flex-1 text-sm leading-relaxed text-zinc-400">{project.description}</p>
 
         <div className="flex flex-wrap gap-3">

@@ -26,7 +26,7 @@ export function ProjectsPage() {
         {/* Cabeçalho da página */}
         <div className="mb-12">
           <p className="mb-2 font-mono text-sm text-accent-light">{t.projects.eyebrow}</p>
-          <h1 className="text-3xl font-bold text-white sm:text-4xl">{t.projects.title}</h1>
+          <h1 className="text-3xl font-bold text-fg sm:text-4xl">{t.projects.title}</h1>
           <p className="mt-4 max-w-2xl text-zinc-400">{t.projects.description}</p>
         </div>
 

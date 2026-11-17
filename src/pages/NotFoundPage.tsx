@@ -10,7 +10,7 @@ export function NotFoundPage() {
   return (
     <div className="flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center px-6 pt-28 pb-24 text-center">
       <p className="mb-2 font-mono text-sm text-accent-light">{t.notFound.code}</p>
-      <h1 className="mb-4 text-3xl font-bold text-white sm:text-4xl">{t.notFound.title}</h1>
+      <h1 className="mb-4 text-3xl font-bold text-fg sm:text-4xl">{t.notFound.title}</h1>
       <p className="mb-8 max-w-md text-zinc-400">{t.notFound.description}</p>
       <Link
         to="/"

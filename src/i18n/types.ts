@@ -90,6 +90,10 @@ export interface Translations {
     rights: string;
     builtWith: string;
   };
+  theme: {
+    toLight: string;
+    toDark: string;
+  };
   language: {
     switchToEn: string;
     switchToPt: string;

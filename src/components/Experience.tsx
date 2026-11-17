@@ -20,7 +20,7 @@ export function Experience() {
             <div className="rounded-xl border border-border bg-surface-card p-6 transition-all hover:border-accent/20">
               <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between">
                 <div>
-                  <h3 className="text-lg font-semibold text-white">{job.company}</h3>
+                  <h3 className="text-lg font-semibold text-fg">{job.company}</h3>
                   <p className="text-sm text-accent-light">{job.role}</p>
                 </div>
                 <time className="mt-1 shrink-0 font-mono text-xs text-zinc-500 sm:mt-0">

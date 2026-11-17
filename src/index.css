@@ -14,6 +14,31 @@
   --color-accent: #7f1239;
   --color-accent-light: #be185d;
   --color-accent-glow: #7f123940;
+  --color-fg: #ffffff;
+  --color-body: #e4e4e7;
+}
+
+/* Tema claro — sobrescreve tokens quando <html data-theme="light"> */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --color-surface: #fdf8fa;
+  --color-surface-elevated: #f7eef2;
+  --color-surface-card: #ffffff;
+  --color-border: #ecd5df;
+  --color-accent: #9f1239;
+  --color-accent-light: #be185d;
+  --color-accent-glow: #be185d30;
+  --color-fg: #18181b;
+  --color-body: #27272a;
+  --color-zinc-300: #3f3f46;
+  --color-zinc-400: #52525b;
+  --color-zinc-500: #71717a;
+  --color-zinc-600: #a1a1aa;
+  --color-red-300: #b91c1c;
+}
+
+:root {
+  color-scheme: dark;
 }
 
 /* ==========================================================================
@@ -26,7 +51,8 @@ html {
 body {
   font-family: var(--font-sans);
   background-color: var(--color-surface);
-  color: #e4e4e7;
+  color: var(--color-body);
+  transition: background-color 0.3s, color 0.3s;
   -webkit-font-smoothing: antialiased;
 }
 

@@ -228,7 +228,11 @@ export const en: Translations = {
     rights: "All rights reserved.",
     builtWith: "Built with React + TypeScript + Tailwind CSS",
   },
-  language: {   
+  theme: {
+    toLight: "Switch to light theme",
+    toDark: "Switch to dark theme",
+  },
+  language: {
     switchToPt: "Mudar para Português",
     switchToEn: "Switch to English",
   },

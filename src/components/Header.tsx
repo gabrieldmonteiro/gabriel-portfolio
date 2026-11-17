@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { navLinks } from "../i18n";
 import { useLanguage } from "../i18n/LanguageContext";
 import { LanguageToggle } from "./LanguageToggle";
+import { ThemeToggle } from "./ThemeToggle";
 import { NavLink } from "./layout/NavLink";
 
 /**
@@ -41,7 +42,7 @@ export function Header() {
       <nav className="mx-auto grid h-16 max-w-6xl grid-cols-[1fr_auto_1fr] items-center px-6">
         <Link
           to="/"
-          className="inline-flex items-center justify-self-start font-mono text-sm font-medium leading-none text-accent-light transition-colors hover:text-white"
+          className="inline-flex items-center justify-self-start font-mono text-sm font-medium leading-none text-accent-light transition-colors hover:text-fg"
         >
           GDM<span className="text-zinc-500">.</span>
         </Link>
@@ -53,6 +54,7 @@ export function Header() {
         </div>
 
         <div className="flex items-center justify-end gap-3 justify-self-end">
+          <ThemeToggle />
           <LanguageToggle className="hidden md:inline-flex" />
           <MobileMenuButton isOpen={menuOpen} onToggle={() => setMenuOpen((open) => !open)} />
         </div>

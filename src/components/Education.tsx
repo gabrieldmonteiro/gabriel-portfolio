@@ -25,7 +25,7 @@ export function Education() {
                 className="rounded-xl border border-border bg-surface-card p-5 transition-all hover:border-accent/20"
               >
                 <div className="mb-1 flex flex-wrap items-start justify-between gap-2">
-                  <h4 className="font-medium text-white">{item.degree}</h4>
+                  <h4 className="font-medium text-fg">{item.degree}</h4>
                   <span className="shrink-0 font-mono text-xs text-zinc-500">{item.period}</span>
                 </div>
                 <p className="text-sm text-zinc-400">{item.institution}</p>
@@ -61,7 +61,7 @@ export function Education() {
                   className="rounded-xl border border-border bg-surface-card p-5"
                 >
                   <div className="mb-1 flex items-center justify-between">
-                    <span className="font-medium text-white">{lang.name}</span>
+                    <span className="font-medium text-fg">{lang.name}</span>
                     <span className="font-mono text-xs text-accent-light">{lang.level}</span>
                   </div>
                   {lang.note && <p className="text-xs text-zinc-500">{lang.note}</p>}
