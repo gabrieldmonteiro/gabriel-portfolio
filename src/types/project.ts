@@ -5,7 +5,11 @@ export interface Project {
   id: number;
   name: string;
   description: string;
-  url?: string;
-  url_gh: string;
+  url_demo?: string;
+  url_github?: string;
+  url_android?: string;
+  url_steam?: string;
+  url_ios?: string;
+  url_itch?: string;
   image: string;
 }

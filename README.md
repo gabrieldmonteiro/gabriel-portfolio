@@ -41,8 +41,8 @@ Edite `public/projects.json` e inclua um novo objeto:
   "id": 13,
   "name": "Meu Novo Projeto",
   "description": "Breve descrição do projeto.",
-  "url": "https://demo-opcional.vercel.app",
-  "url_gh": "https://github.com/gabrieldmonteiro/meu-projeto",
+  "url_demo": "https://demo-opcional.vercel.app",
+  "url_github": "https://github.com/gabrieldmonteiro/meu-projeto",
   "image": "https://raw.githubusercontent.com/.../screenshot.png"
 }
 ```

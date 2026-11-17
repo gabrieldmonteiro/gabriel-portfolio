@@ -53,7 +53,7 @@ async function fetchAllRepos(username) {
 async function syncProjects() {
   const existing = JSON.parse(readFileSync(PROJECTS_FILE, "utf-8"));
   const byRepoName = new Map(
-    existing.map((project) => [repoNameFromUrl(project.url_gh), project]),
+    existing.map((project) => [repoNameFromUrl(project.url_github), project]),
   );
 
   const githubRepos = await fetchAllRepos(GITHUB_USER);
@@ -75,8 +75,8 @@ async function syncProjects() {
     if (existingProject) {
       existingProject.name = repo.name.replace(/-/g, " ");
       if (repo.description) existingProject.description = repo.description;
-      existingProject.url_gh = repo.html_url;
-      if (demoUrl) existingProject.url = demoUrl;
+      existingProject.url_github = repo.html_url;
+      if (demoUrl) existingProject.url_demo = demoUrl;
       updated += 1;
       continue;
     }
@@ -85,11 +85,11 @@ async function syncProjects() {
       id: nextId(existing),
       name: repo.name.replace(/-/g, " "),
       description: repo.description ?? "Sem descrição.",
-      url_gh: repo.html_url,
+      url_github: repo.html_url,
       image: defaultImage(GITHUB_USER, repo.name),
     };
 
-    if (demoUrl) newProject.url = demoUrl;
+    if (demoUrl) newProject.url_demo = demoUrl;
 
     existing.push(newProject);
     byRepoName.set(key, newProject);
