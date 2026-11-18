@@ -138,5 +138,12 @@
     "url_android": "",
     "url_steam": "",
     "image": "https://raw.githubusercontent.com/gabrieldmonteiro/projects-thumbnails/refs/heads/main/CoffeeRushCover.jpg"
+  },
+   {
+    "id": 19,
+    "name": "Battle Pass Tracker",
+    "description": "Never miss a reward. Finish every season on time. ",
+    "url_demo": "https://battlepasstracker.vercel.app"
+    "image": "https://raw.githubusercontent.com/gabrieldmonteiro/projects-thumbnails/refs/heads/main/battlepasstracker.png"
   }  
 ]
